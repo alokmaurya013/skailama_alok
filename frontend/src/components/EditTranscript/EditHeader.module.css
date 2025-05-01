@@ -1,0 +1,109 @@
+.container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px 100px;
+  font-family: Roboto, -apple-system, Helvetica, sans-serif;
+  font-weight: 600;
+  display: flex;
+  margin-top: 30px;
+}
+
+.headerContainer {
+  color: #1d1929;
+  justify-content: start;
+  align-self: stretch;
+  align-items: center;
+  gap: 12px;
+  font-size: 36px;
+  display: flex;
+}
+
+.headerIcon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  flex-shrink: 0;
+  align-self: stretch;
+  width: 48px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.headerTitle {
+  align-self: stretch;
+  margin: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 36px;
+}
+
+.actionButtonsContainer {
+  white-space: nowrap;
+  justify-content: start;
+  align-self: stretch;
+  align-items: center;
+  gap: 13px;
+  width: 334px;
+  min-width: 240px;
+  font-size: 20px;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (width <= 991px) {
+  .actionButtonsContainer {
+    white-space: initial;
+  }
+}
+
+.discardButton {
+  color: #e01919;
+  border: 1px solid #e01919;
+  background: transparent;
+  border-radius: 6px;
+  align-self: stretch;
+  width: 161px;
+  min-height: 47px;
+  padding: 12px 46px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (width <= 991px) {
+  .discardButton {
+    white-space: initial;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.saveButton {
+  color: #f8f8f8;
+  background-color: #211935;
+  border-radius: 6px;
+  align-self: stretch;
+  width: 161px;
+  min-height: 47px;
+  padding: 12px 59px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (width <= 991px) {
+  .saveButton {
+    white-space: initial;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

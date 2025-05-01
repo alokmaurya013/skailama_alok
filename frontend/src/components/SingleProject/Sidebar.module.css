@@ -1,0 +1,92 @@
+.sidebar {
+    color: #7e22ce;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    box-sizing: border-box;
+    padding: 42px 0 0 51px;
+    width: 23%; /* Adjusted for better sidebar width */
+    font-family: Roboto, -apple-system, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    position: fixed;
+    flex-shrink: 0;
+    top: 0;
+    left: 0;
+  }
+  
+  .logo {
+    width: 147px; /* Slightly smaller and clean */
+    object-fit: contain;
+    margin-bottom: 36px;
+  }
+  
+  .navItem {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+  }
+  
+  .navIcon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .navText {
+    font-size: 18px;
+    color: #7e22ce;
+  }
+  .menuItem {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .menuText {
+    color: #646464;
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 600;
+  }
+  
+  .contentContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .createRepurpose,
+  .podcastWidget,
+  .upgrade {
+    color: #646464;
+    font-size: 18px;
+    margin-top: 24px;
+  }
+  
+  .menuIcon,
+  .menuIcon2,
+  .upgradeIcon {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+  
+  .divider {
+    width: 90%;
+    border: 1px solid #ccc;
+    margin-top: 40px;
+  }
+  
+  /* Bottom Section */
+.bottomSection {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+}

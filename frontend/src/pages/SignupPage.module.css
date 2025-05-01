@@ -1,0 +1,55 @@
+
+.name1 {
+    color: #a7a7a7;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    font-family: Roboto;
+    border-radius: 8px;
+    margin-top: 45px;
+    padding: 18px 25px;
+    font-weight: 700;
+  }
+  @media (width<=991px) {
+    .name1 {
+      max-width: 100%;
+      margin-top: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+.email1 {
+    color: #a7a7a7;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    font-family: Roboto;
+    border-radius: 8px;
+    margin-top: 13px;
+    padding: 18px 25px;
+    font-weight: 700;
+  }
+  @media (width<=991px) {
+    .email1 {
+      max-width: 100%;
+      white-space: initial;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  .password1 {
+    color: #a7a7a7;
+    white-space: nowrap;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    margin-top: 13px;
+    padding: 18px 25px;
+    font-weight: 700;
+  }
+  @media (width<=991px) {
+    .password1 {
+      max-width: 100%;
+      white-space: initial;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+}

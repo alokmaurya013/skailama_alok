@@ -1,0 +1,119 @@
+/* Full-screen overlay for centering */
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent backdrop */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's above everything */
+  font-family: Roboto, -apple-system, Helvetica, sans-serif;
+  color: #3c3c3c;
+}
+
+/* Modal box */
+.formContainer {
+  background-color: #fff;
+  border: 1px solid #999;
+  border-radius: 19px;
+  padding: 38px 76px 74px;
+  width: 60%;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+@media (max-width: 991px) {
+  .formContainer {
+    width: 90%;
+    padding: 30px 20px;
+  }
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.youtubeIcon {
+  width: 48px;
+  height: 48px;
+}
+
+.uploadTitle {
+  font-size: 24px;
+}
+
+.closeIcon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.nameLabel,
+.transcriptLabel {
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nameInput,
+.transcriptTextarea {
+  margin-top: 10px;
+  padding: 12px;
+  border: 1px solid #000;
+  border-radius: 7px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.nameInput {
+  height: 50px;
+}
+
+.transcriptTextarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.uploadButton {
+  margin-top: 30px;
+  align-self: flex-end;
+  padding: 12px 32px;
+  background-color: #211935;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.uploadButton:hover {
+  background-color: #3a2b5a;
+}
+
+@media (max-width: 600px) {
+  .uploadButton {
+    width: 100%;
+    align-self: stretch;
+    text-align: center;
+  }
+}

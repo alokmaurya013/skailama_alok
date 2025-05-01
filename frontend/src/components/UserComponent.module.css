@@ -1,0 +1,132 @@
+
+.container1 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px 100px;
+    font-family:
+      Roboto,
+      -apple-system,
+      Helvetica,
+      sans-serif;
+    font-weight: 600;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .titleContainer {
+    color: #1d1929;
+    justify-content: start;
+    align-self: stretch;
+    align-items: center;
+    gap: 12px;
+    font-size: 36px;
+    display: flex;
+  }
+  
+  .icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    width: 48px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .title {
+    align-self: stretch;
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 36px;
+  }
+  
+ 
+  
+.container {
+    padding:  1rem 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+  }
+  
+  
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .userIcon {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+  }
+  .user{
+    margin-left: 3rem;
+  }
+  .userName {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .userEmail {
+    margin-top: 20px;
+    color: #777;
+    font-size: 0.95rem;
+  }
+  @media (min-width: 768px) {
+    .userInfo {
+      flex-direction: row;
+      align-items: center;
+      text-align: left;
+    }
+
+  }
+  .subscription {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem 0;
+    color: #000000;
+    border-top: 1px solid #ddd;
+    margin-top: 1rem;
+  }
+  
+  .subscriptionTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .noPlanText {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .upgradeBtn {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff; /* or your theme primary */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upgradeBtn:hover {
+    background-color: #0056b3;
+  }
+  

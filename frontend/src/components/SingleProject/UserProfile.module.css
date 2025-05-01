@@ -1,0 +1,88 @@
+.userProfileContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom:20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Top right icon */
+  .helpIconContainer {
+    position: absolute;
+    right: -18px;
+    background-color: #7e22ce;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .helpButtonIcon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Help Row */
+  .helpRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 34px;
+  }
+  
+  .helpInfoIcon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+  
+  .helpText {
+    color: #646464;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Roboto, -apple-system, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  /* Divider */
+  .profileDivider {
+    border: 1px solid #ccc;
+    width: 90%;
+    margin: 29px 0 32px;
+  }
+  
+  /* Profile Section */
+  .profileRow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .userAvatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .profileDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .username {
+    font-size: 16px;
+    font-weight: 700;
+    color: #3c3c3c;
+    margin: 0;
+  }
+  
+  .userEmail {
+    font-size: 12px;
+    color: #3c3c3c;
+    margin-top: 4px;
+  }
+  

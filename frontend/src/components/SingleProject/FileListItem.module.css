@@ -1,0 +1,37 @@
+.fileItemContainer {
+  display: grid;
+  grid-template-columns: 50px 1fr 200px 170px; /* Match header layout */
+  align-items: center;
+  justify-items: center;
+  background-color: #ffffff;
+  padding: 10px 10px;
+  margin-top: 12px;
+  color: #646464;
+  gap: 20px;
+}
+
+.itemNumber,
+.fileName,
+.dateTime {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.divider {
+  height: 2px;
+  background-color: #ededed;
+  margin: 10px 27px 0;
+}
+
+@media (max-width: 991px) {
+  .fileItemContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .divider {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,100 @@
+.container {
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 28px auto 0;
+  min-height: 60vh;
+  padding: 30px 50px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  border: 0.67px solid #c7c7c7;
+  display: flex;
+}
+
+.textContent {
+  color: #63635e;
+  font-family: Roboto, sans-serif;
+  font-size: 23px;
+  line-height: 1.6;
+}
+
+.heading {
+  color: #7e22ce;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 23px;
+  font-weight: 700;
+}
+/* Heading input in editable mode */
+.editableInput {
+  width: 100%;
+  padding: 12px;
+  font-size: 23px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  color: #7e22ce;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.paragraph {
+  color: #63635e;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+/* EDIT MODE TEXTAREA STYLE */
+.textarea {
+  width: 100%;
+  min-height: 300px;
+  padding: 1rem;
+  font-size: 23px;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  color: #63635e;
+  line-height: 1.6;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  background-color: #f9f9f9;
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+/* Responsive styles */
+@media (max-width: 991px) {
+  .container {
+    max-width: 991px;
+    padding: 0 15px;
+  }
+
+  .textContent,
+  .paragraph,
+  .textarea,
+  .heading {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    max-width: 640px;
+    padding: 0 10px;
+  }
+
+  .textContent,
+  .paragraph,
+  .textarea,
+  .heading {
+    font-size: 20px;
+    line-height: 36px;
+  }
+}
